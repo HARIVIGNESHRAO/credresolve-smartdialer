@@ -26,6 +26,19 @@ npm start
 
 Open **http://127.0.0.1:3000**. The frontend proxies `/api/*` to `http://127.0.0.1:8081`. For a different backend, set `BACKEND_URL` **when building** Next.js. To change the API port set `PORT`. Database settings are `DATABASE_URL` (JDBC URL), `DATABASE_USER`, `DATABASE_PASSWORD`. `.env.example` documents values; Spring does not automatically read this file. Export variables in the shell if changing defaults. `POSTGRES_PASSWORD` configures Compose independently of Spring's `DATABASE_PASSWORD`.
 
+### If port 5432 is occupied
+
+The Docker database was successfully started on this machine using port 55433. Use matching settings in the two terminals:
+
+```sh
+POSTGRES_PORT=55433 docker compose up -d --wait
+# In the backend terminal:
+export DATABASE_URL=jdbc:postgresql://127.0.0.1:55433/smartdialer
+./mvnw spring-boot:run
+```
+
+Use `http://127.0.0.1:3000` for the dashboard. On this machine, `localhost:3000` can resolve to an existing Docker app listening on IPv6 instead.
+
 ### Demonstrate live operations
 
 1. Click **Enable demo agents** at the top. This explicitly activates idle demo agents and sends a heartbeat every ten seconds while the page remains open. Closing the page stops heartbeats; the backend marks missing agents OFFLINE after thirty seconds.
@@ -87,7 +100,7 @@ Use the module entry points in [architecture](docs/architecture.md) during the i
 - An expired lease prompts reconciliation. It does **not** free a possibly live call or authorize another call. Mock provider idempotency survives application restarts. Unknown outcomes retain reservations until evidence is available.
 - Stop closes admission and cancels unsent work. A provider invocation already authorized/in progress at the stop boundary may finish. Hard cancellation requires a provider cancel protocol, which this prototype does not implement.
 
-This is a functional hiring prototype, **not a production deployment**. It binds to localhost, has no authentication/RBAC or signed webhook verification, and exposes mock controls. Do not publish it unchanged. There is no automatic redial campaign policy, real agent session service, production rate limiter, provider cancellation, distributed half-open circuit probe, or event retention policy. Provider samples use compressed real time; performance simulations use an independent deterministic second clock sharing the same policy classes. Simulation has immediate bridge/no answer queue, omits wrap-up time and models observed provider outage explicitly. Calls active at the horizon are censored and reported separately. Visual browser QA was unavailable in this session; the production build and HTTP proxy were tested. Docker/Testcontainers execution was unavailable because the daemon was stopped; the tests ran against real local PostgreSQL instead.
+This is a functional hiring prototype, **not a production deployment**. It binds to localhost, has no authentication/RBAC or signed webhook verification, and exposes mock controls. Do not publish it unchanged. There is no automatic redial campaign policy, real agent session service, production rate limiter, provider cancellation, distributed half-open circuit probe, or event retention policy. Provider samples use compressed real time; performance simulations use an independent deterministic second clock sharing the same policy classes. Simulation has immediate bridge/no answer queue, omits wrap-up time and models observed provider outage explicitly. Calls active at the horizon are censored and reported separately. Visual browser QA was unavailable in this session; the production build and HTTP proxy were tested. Docker/Testcontainers initially was unavailable; after Docker Desktop was started, the same 25 tests also passed against Testcontainers PostgreSQL 17.
 
 ## Assignment's final question
 

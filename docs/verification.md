@@ -36,9 +36,13 @@ Elapsed 0.232s; 431.57 requests/s; p50 16.83ms; p95 62.44ms. This is a short loc
 
 ## Verification limits
 
-- Docker CLI is installed, but its daemon was stopped. Compose startup and the Testcontainers launch path were **not** executed successfully. The same tests ran against real local PostgreSQL instead; GitHub Actions is configured to exercise Testcontainers on an Ubuntu Docker runner, but remote CI has not been run.
+- Follow-up verification on 26 October 2026: Docker Desktop started successfully; Compose PostgreSQL is healthy on host port 55433. `env -u TEST_DATABASE_URL JAVA_HOME=<JDK21> ./mvnw -q test` executed all **25 tests through Testcontainers PostgreSQL 17: zero failures/errors/skips**. See `docker-test-results.txt`. Remote GitHub Actions has not been run.
 - Browser runtime reported no available browser. No visual screenshot, responsive rendering inspection, or browser interaction test is claimed. The frontend production build, served HTML, and actual backend proxy passed.
 - Port 8080 was occupied by another local service; no changes were made to that service. This project uses 8081.
 - Crash tests inject the durable state left at a crash boundary; no OS process-kill chaos experiment was performed.
 - Concurrency tests race real database transactions in one JVM using independent threads/connections; no multi-host deployment was benchmarked.
 - Authentication, signed callbacks, provider cancel, production throttling, and distributed half-open circuit probes are outside this prototype.
+
+## Live sample campaign follow-up
+
+At review, `Sample Test — 5 Agents` was STOPPED with 10 calls: 7 COMPLETED, 3 FAILED, 0 active, and 0 observed abandoned calls. This is a measured demo outcome, not a guarantee about future answer behavior.
