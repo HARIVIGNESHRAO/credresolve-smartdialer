@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.credresolve.smartdialer.CoreIntegrationTest
 -------------------------------------------------------------------------------
-Tests run: 25, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.618 s -- in com.credresolve.smartdialer.CoreIntegrationTest
+Tests run: 25, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.082 s -- in com.credresolve.smartdialer.CoreIntegrationTest

@@ -11,7 +11,7 @@ import org.springframework.stereotype.Service;
 @Service
 public class Simulator {
   public record Config(
-      @Pattern(regexp = "[ABCD]") String scenario,
+      @NotNull @Pattern(regexp = "[ABCD]") String scenario,
       @Min(1) @Max(500) int agents,
       @Min(30) @Max(7200) int durationSeconds,
       @Min(0) @Max(30000) int providerLatencyMs,
@@ -163,7 +163,7 @@ public class Simulator {
               call.agent = a;
               busy[a] = call.finishAt;
               connected++;
-              waiting += 0; /* Answered calls bridge immediately; no queue is modeled. */
+              waiting += Math.max(0, t - call.answerAt); /* Immediate bridge; no answer queue. */
             }
           } else {
             failed++;

@@ -279,6 +279,11 @@ class CoreIntegrationTest {
   @Test
   void apiValidationAndMetrics() throws Exception {
     api.perform(
+            post("/api/simulations/run")
+                .contentType("application/json")
+                .content("{\"agents\":50,\"durationSeconds\":60}"))
+        .andExpect(status().isBadRequest());
+    api.perform(
             post("/api/agents")
                 .contentType("application/json")
                 .content("{\"name\":\"\",\"campaignId\":\"" + campaign + "\"}"))
