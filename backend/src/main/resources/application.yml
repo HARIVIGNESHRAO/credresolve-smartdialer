@@ -1,0 +1,26 @@
+logging:
+  level:
+    root: INFO
+    org.springframework: INFO
+server:
+  address: 127.0.0.1
+  port: ${PORT:8081}
+spring:
+  task:
+    scheduling:
+      pool:
+        size: 3
+  datasource:
+    url: ${DATABASE_URL:jdbc:postgresql://localhost:5432/smartdialer}
+    username: ${DATABASE_USER:smartdialer}
+    password: ${DATABASE_PASSWORD:smartdialer}
+  jpa:
+    open-in-view: false
+    hibernate:
+      ddl-auto: validate
+    properties:
+      hibernate.jdbc.time_zone: UTC
+  jackson:
+    time-zone: UTC
+smartdialer:
+  scheduling: ${DIALER_SCHEDULING:true}

@@ -1,0 +1,2368 @@
+[
+  {
+    "id": "b3ecccda-2fc7-435c-9634-28f63fb58967",
+    "config": {
+      "scenario": "A",
+      "agents": 50,
+      "durationSeconds": 900,
+      "providerLatencyMs": 500,
+      "failureRate": 0.03,
+      "dropouts": 0,
+      "seed": 42
+    },
+    "predictive": {
+      "averageWaitingSeconds": 0.0,
+      "censoredActiveCalls": 51,
+      "mode": "PREDICTIVE",
+      "timeline": [
+        {
+          "answerEstimate": 0.5,
+          "connected": 0,
+          "capacity": 50,
+          "second": 0,
+          "approved": 50,
+          "active": 50,
+          "initiated": 50
+        },
+        {
+          "answerEstimate": 0.21399158753429376,
+          "connected": 48,
+          "capacity": 50,
+          "second": 30,
+          "approved": 2,
+          "active": 50,
+          "initiated": 342
+        },
+        {
+          "answerEstimate": 0.3390818235863836,
+          "connected": 50,
+          "capacity": 50,
+          "second": 60,
+          "approved": 0,
+          "active": 50,
+          "initiated": 346
+        },
+        {
+          "answerEstimate": 0.3390818235863836,
+          "connected": 50,
+          "capacity": 50,
+          "second": 90,
+          "approved": 1,
+          "active": 50,
+          "initiated": 347
+        },
+        {
+          "answerEstimate": 0.2796872854386803,
+          "connected": 56,
+          "capacity": 50,
+          "second": 120,
+          "approved": 3,
+          "active": 51,
+          "initiated": 382
+        },
+        {
+          "answerEstimate": 0.054975329586069044,
+          "connected": 77,
+          "capacity": 50,
+          "second": 150,
+          "approved": 12,
+          "active": 59,
+          "initiated": 535
+        },
+        {
+          "answerEstimate": 0.13200135957139145,
+          "connected": 96,
+          "capacity": 50,
+          "second": 180,
+          "approved": 3,
+          "active": 51,
+          "initiated": 596
+        },
+        {
+          "answerEstimate": 0.1376547977422995,
+          "connected": 100,
+          "capacity": 50,
+          "second": 210,
+          "approved": 0,
+          "active": 50,
+          "initiated": 616
+        },
+        {
+          "answerEstimate": 0.38265618880328334,
+          "connected": 107,
+          "capacity": 50,
+          "second": 240,
+          "approved": 2,
+          "active": 50,
+          "initiated": 654
+        },
+        {
+          "answerEstimate": 0.3950842687389043,
+          "connected": 120,
+          "capacity": 50,
+          "second": 270,
+          "approved": 1,
+          "active": 50,
+          "initiated": 734
+        },
+        {
+          "answerEstimate": 0.22554649804865196,
+          "connected": 140,
+          "capacity": 50,
+          "second": 300,
+          "approved": 5,
+          "active": 51,
+          "initiated": 847
+        },
+        {
+          "answerEstimate": 0.3777145174417591,
+          "connected": 148,
+          "capacity": 50,
+          "second": 330,
+          "approved": 0,
+          "active": 50,
+          "initiated": 880
+        },
+        {
+          "answerEstimate": 0.21363313290714314,
+          "connected": 156,
+          "capacity": 50,
+          "second": 360,
+          "approved": 0,
+          "active": 52,
+          "initiated": 920
+        },
+        {
+          "answerEstimate": 0.23458804856776183,
+          "connected": 166,
+          "capacity": 50,
+          "second": 390,
+          "approved": 0,
+          "active": 55,
+          "initiated": 968
+        },
+        {
+          "answerEstimate": 0.297117918158017,
+          "connected": 184,
+          "capacity": 50,
+          "second": 420,
+          "approved": 1,
+          "active": 51,
+          "initiated": 1079
+        },
+        {
+          "answerEstimate": 0.10300569814224347,
+          "connected": 193,
+          "capacity": 50,
+          "second": 450,
+          "approved": 5,
+          "active": 52,
+          "initiated": 1126
+        },
+        {
+          "answerEstimate": 0.3415960595547594,
+          "connected": 202,
+          "capacity": 50,
+          "second": 480,
+          "approved": 2,
+          "active": 50,
+          "initiated": 1164
+        },
+        {
+          "answerEstimate": 0.2714050262137917,
+          "connected": 213,
+          "capacity": 50,
+          "second": 510,
+          "approved": 0,
+          "active": 51,
+          "initiated": 1234
+        },
+        {
+          "answerEstimate": 0.06512466306187685,
+          "connected": 224,
+          "capacity": 50,
+          "second": 540,
+          "approved": 9,
+          "active": 57,
+          "initiated": 1316
+        },
+        {
+          "answerEstimate": 0.1873899934666659,
+          "connected": 239,
+          "capacity": 50,
+          "second": 570,
+          "approved": 0,
+          "active": 53,
+          "initiated": 1381
+        },
+        {
+          "answerEstimate": 0.187827235403706,
+          "connected": 249,
+          "capacity": 50,
+          "second": 600,
+          "approved": 2,
+          "active": 50,
+          "initiated": 1441
+        },
+        {
+          "answerEstimate": 0.48636762681757617,
+          "connected": 258,
+          "capacity": 50,
+          "second": 630,
+          "approved": 0,
+          "active": 50,
+          "initiated": 1469
+        },
+        {
+          "answerEstimate": 0.24117867630456793,
+          "connected": 272,
+          "capacity": 50,
+          "second": 660,
+          "approved": 1,
+          "active": 50,
+          "initiated": 1526
+        },
+        {
+          "answerEstimate": 0.20568676861292096,
+          "connected": 282,
+          "capacity": 50,
+          "second": 690,
+          "approved": 0,
+          "active": 51,
+          "initiated": 1579
+        },
+        {
+          "answerEstimate": 0.2748960330563528,
+          "connected": 294,
+          "capacity": 50,
+          "second": 720,
+          "approved": 1,
+          "active": 50,
+          "initiated": 1638
+        },
+        {
+          "answerEstimate": 0.19911602318972896,
+          "connected": 305,
+          "capacity": 50,
+          "second": 750,
+          "approved": 3,
+          "active": 50,
+          "initiated": 1679
+        },
+        {
+          "answerEstimate": 0.24536538775285224,
+          "connected": 316,
+          "capacity": 50,
+          "second": 780,
+          "approved": 0,
+          "active": 51,
+          "initiated": 1727
+        },
+        {
+          "answerEstimate": 0.3104536087532235,
+          "connected": 330,
+          "capacity": 50,
+          "second": 810,
+          "approved": 0,
+          "active": 51,
+          "initiated": 1801
+        },
+        {
+          "answerEstimate": 0.02207697258945106,
+          "connected": 339,
+          "capacity": 50,
+          "second": 840,
+          "approved": 11,
+          "active": 56,
+          "initiated": 1890
+        },
+        {
+          "answerEstimate": 0.18707194391684848,
+          "connected": 351,
+          "capacity": 50,
+          "second": 870,
+          "approved": 4,
+          "active": 51,
+          "initiated": 1926
+        }
+      ],
+      "abandonedConnectedCalls": 0,
+      "safetyApprovals": 536,
+      "agentUtilization": 0.9107111111111111,
+      "safetyRejections": 364,
+      "fallbackEvents": 1,
+      "events": [],
+      "pacingChanges": 693,
+      "callsInitiated": 1980,
+      "abandonmentRate": 0.0,
+      "callsConnected": 363,
+      "callsFailed": 1611,
+      "callsAnswered": 363
+    },
+    "progressive": {
+      "averageWaitingSeconds": 0.0,
+      "censoredActiveCalls": 50,
+      "mode": "PROGRESSIVE",
+      "timeline": [
+        {
+          "answerEstimate": 0.5,
+          "connected": 0,
+          "capacity": 50,
+          "second": 0,
+          "approved": 50,
+          "active": 50,
+          "initiated": 50
+        },
+        {
+          "answerEstimate": 0.27706427078635615,
+          "connected": 39,
+          "capacity": 50,
+          "second": 30,
+          "approved": 11,
+          "active": 50,
+          "initiated": 289
+        },
+        {
+          "answerEstimate": 0.15460892199352722,
+          "connected": 48,
+          "capacity": 50,
+          "second": 60,
+          "approved": 2,
+          "active": 50,
+          "initiated": 344
+        },
+        {
+          "answerEstimate": 0.3390818235863836,
+          "connected": 50,
+          "capacity": 50,
+          "second": 90,
+          "approved": 0,
+          "active": 50,
+          "initiated": 346
+        },
+        {
+          "answerEstimate": 0.20997915192186686,
+          "connected": 54,
+          "capacity": 50,
+          "second": 120,
+          "approved": 1,
+          "active": 50,
+          "initiated": 375
+        },
+        {
+          "answerEstimate": 0.10626989616105098,
+          "connected": 67,
+          "capacity": 50,
+          "second": 150,
+          "approved": 7,
+          "active": 50,
+          "initiated": 453
+        },
+        {
+          "answerEstimate": 0.23874692721623486,
+          "connected": 90,
+          "capacity": 50,
+          "second": 180,
+          "approved": 3,
+          "active": 50,
+          "initiated": 569
+        },
+        {
+          "answerEstimate": 0.17982233056501606,
+          "connected": 98,
+          "capacity": 50,
+          "second": 210,
+          "approved": 0,
+          "active": 50,
+          "initiated": 603
+        },
+        {
+          "answerEstimate": 0.15748642096019744,
+          "connected": 102,
+          "capacity": 50,
+          "second": 240,
+          "approved": 2,
+          "active": 50,
+          "initiated": 631
+        },
+        {
+          "answerEstimate": 0.19811317182444943,
+          "connected": 111,
+          "capacity": 50,
+          "second": 270,
+          "approved": 1,
+          "active": 50,
+          "initiated": 692
+        },
+        {
+          "answerEstimate": 0.17650568159481184,
+          "connected": 127,
+          "capacity": 50,
+          "second": 300,
+          "approved": 3,
+          "active": 50,
+          "initiated": 775
+        },
+        {
+          "answerEstimate": 0.2098554316470091,
+          "connected": 141,
+          "capacity": 50,
+          "second": 330,
+          "approved": 2,
+          "active": 50,
+          "initiated": 851
+        },
+        {
+          "answerEstimate": 0.15117278275636647,
+          "connected": 150,
+          "capacity": 50,
+          "second": 360,
+          "approved": 3,
+          "active": 50,
+          "initiated": 895
+        },
+        {
+          "answerEstimate": 0.21881569610069926,
+          "connected": 159,
+          "capacity": 50,
+          "second": 390,
+          "approved": 2,
+          "active": 50,
+          "initiated": 939
+        },
+        {
+          "answerEstimate": 0.03543424515852754,
+          "connected": 169,
+          "capacity": 50,
+          "second": 420,
+          "approved": 1,
+          "active": 50,
+          "initiated": 998
+        },
+        {
+          "answerEstimate": 0.3909724102654733,
+          "connected": 186,
+          "capacity": 50,
+          "second": 450,
+          "approved": 1,
+          "active": 50,
+          "initiated": 1083
+        },
+        {
+          "answerEstimate": 0.07442161690777091,
+          "connected": 193,
+          "capacity": 50,
+          "second": 480,
+          "approved": 3,
+          "active": 50,
+          "initiated": 1128
+        },
+        {
+          "answerEstimate": 0.07792642027265816,
+          "connected": 203,
+          "capacity": 50,
+          "second": 510,
+          "approved": 2,
+          "active": 50,
+          "initiated": 1179
+        },
+        {
+          "answerEstimate": 0.08629137619614004,
+          "connected": 214,
+          "capacity": 50,
+          "second": 540,
+          "approved": 1,
+          "active": 50,
+          "initiated": 1246
+        },
+        {
+          "answerEstimate": 0.09604679113072286,
+          "connected": 225,
+          "capacity": 50,
+          "second": 570,
+          "approved": 3,
+          "active": 50,
+          "initiated": 1319
+        },
+        {
+          "answerEstimate": 0.1873899934666659,
+          "connected": 239,
+          "capacity": 50,
+          "second": 600,
+          "approved": 1,
+          "active": 50,
+          "initiated": 1378
+        },
+        {
+          "answerEstimate": 0.1356051986973089,
+          "connected": 246,
+          "capacity": 50,
+          "second": 630,
+          "approved": 4,
+          "active": 50,
+          "initiated": 1435
+        },
+        {
+          "answerEstimate": 0.2538869409964423,
+          "connected": 258,
+          "capacity": 50,
+          "second": 660,
+          "approved": 1,
+          "active": 50,
+          "initiated": 1475
+        },
+        {
+          "answerEstimate": 0.25441012689899395,
+          "connected": 271,
+          "capacity": 50,
+          "second": 690,
+          "approved": 0,
+          "active": 50,
+          "initiated": 1523
+        },
+        {
+          "answerEstimate": 0.09593939449265323,
+          "connected": 280,
+          "capacity": 50,
+          "second": 720,
+          "approved": 2,
+          "active": 50,
+          "initiated": 1573
+        },
+        {
+          "answerEstimate": 0.2304336203114683,
+          "connected": 292,
+          "capacity": 50,
+          "second": 750,
+          "approved": 1,
+          "active": 50,
+          "initiated": 1627
+        },
+        {
+          "answerEstimate": 0.381443753192091,
+          "connected": 305,
+          "capacity": 50,
+          "second": 780,
+          "approved": 1,
+          "active": 50,
+          "initiated": 1675
+        },
+        {
+          "answerEstimate": 0.16313548477903428,
+          "connected": 315,
+          "capacity": 50,
+          "second": 810,
+          "approved": 4,
+          "active": 50,
+          "initiated": 1726
+        },
+        {
+          "answerEstimate": 0.12588404017518448,
+          "connected": 325,
+          "capacity": 50,
+          "second": 840,
+          "approved": 1,
+          "active": 50,
+          "initiated": 1782
+        },
+        {
+          "answerEstimate": 0.06666696850889095,
+          "connected": 337,
+          "capacity": 50,
+          "second": 870,
+          "approved": 3,
+          "active": 50,
+          "initiated": 1839
+        }
+      ],
+      "abandonedConnectedCalls": 0,
+      "safetyApprovals": 716,
+      "agentUtilization": 0.8726222222222222,
+      "safetyRejections": 184,
+      "fallbackEvents": 0,
+      "events": [],
+      "pacingChanges": 709,
+      "callsInitiated": 1912,
+      "abandonmentRate": 0.0,
+      "callsConnected": 348,
+      "callsFailed": 1559,
+      "callsAnswered": 348
+    }
+  },
+  {
+    "id": "063abdd1-f7f1-4f16-8966-11c741cb6731",
+    "config": {
+      "scenario": "B",
+      "agents": 50,
+      "durationSeconds": 900,
+      "providerLatencyMs": 500,
+      "failureRate": 0.03,
+      "dropouts": 0,
+      "seed": 42
+    },
+    "predictive": {
+      "averageWaitingSeconds": 0.0,
+      "censoredActiveCalls": 50,
+      "mode": "PREDICTIVE",
+      "timeline": [
+        {
+          "answerEstimate": 0.5,
+          "connected": 0,
+          "capacity": 50,
+          "second": 0,
+          "approved": 50,
+          "active": 50,
+          "initiated": 50
+        },
+        {
+          "answerEstimate": 0.4144996790933332,
+          "connected": 50,
+          "capacity": 50,
+          "second": 30,
+          "approved": 0,
+          "active": 50,
+          "initiated": 113
+        },
+        {
+          "answerEstimate": 0.4144996790933332,
+          "connected": 50,
+          "capacity": 50,
+          "second": 60,
+          "approved": 0,
+          "active": 50,
+          "initiated": 113
+        },
+        {
+          "answerEstimate": 0.24116904870165357,
+          "connected": 62,
+          "capacity": 50,
+          "second": 90,
+          "approved": 5,
+          "active": 53,
+          "initiated": 150
+        },
+        {
+          "answerEstimate": 0.642541781507826,
+          "connected": 96,
+          "capacity": 50,
+          "second": 120,
+          "approved": 0,
+          "active": 50,
+          "initiated": 222
+        },
+        {
+          "answerEstimate": 0.545834912246352,
+          "connected": 100,
+          "capacity": 50,
+          "second": 150,
+          "approved": 0,
+          "active": 50,
+          "initiated": 228
+        },
+        {
+          "answerEstimate": 0.564997826000435,
+          "connected": 113,
+          "capacity": 50,
+          "second": 180,
+          "approved": 3,
+          "active": 50,
+          "initiated": 258
+        },
+        {
+          "answerEstimate": 0.7904408440394904,
+          "connected": 135,
+          "capacity": 50,
+          "second": 210,
+          "approved": 0,
+          "active": 50,
+          "initiated": 290
+        },
+        {
+          "answerEstimate": 0.4292083458774772,
+          "connected": 149,
+          "capacity": 50,
+          "second": 240,
+          "approved": 0,
+          "active": 50,
+          "initiated": 329
+        },
+        {
+          "answerEstimate": 0.5684970645980617,
+          "connected": 157,
+          "capacity": 50,
+          "second": 270,
+          "approved": 0,
+          "active": 50,
+          "initiated": 343
+        },
+        {
+          "answerEstimate": 0.46870360185891813,
+          "connected": 177,
+          "capacity": 50,
+          "second": 300,
+          "approved": 2,
+          "active": 50,
+          "initiated": 383
+        },
+        {
+          "answerEstimate": 0.44463140463334727,
+          "connected": 197,
+          "capacity": 50,
+          "second": 330,
+          "approved": 2,
+          "active": 50,
+          "initiated": 424
+        },
+        {
+          "answerEstimate": 0.5790436795567647,
+          "connected": 209,
+          "capacity": 50,
+          "second": 360,
+          "approved": 1,
+          "active": 50,
+          "initiated": 449
+        },
+        {
+          "answerEstimate": 0.5006110626330815,
+          "connected": 225,
+          "capacity": 50,
+          "second": 390,
+          "approved": 2,
+          "active": 50,
+          "initiated": 482
+        },
+        {
+          "answerEstimate": 0.5783219960198416,
+          "connected": 241,
+          "capacity": 50,
+          "second": 420,
+          "approved": 0,
+          "active": 50,
+          "initiated": 509
+        },
+        {
+          "answerEstimate": 0.47222641409926824,
+          "connected": 257,
+          "capacity": 50,
+          "second": 450,
+          "approved": 1,
+          "active": 50,
+          "initiated": 546
+        },
+        {
+          "answerEstimate": 0.6834864066308586,
+          "connected": 273,
+          "capacity": 50,
+          "second": 480,
+          "approved": 3,
+          "active": 50,
+          "initiated": 573
+        },
+        {
+          "answerEstimate": 0.7483374299700286,
+          "connected": 292,
+          "capacity": 50,
+          "second": 510,
+          "approved": 0,
+          "active": 50,
+          "initiated": 603
+        },
+        {
+          "answerEstimate": 0.5854526785005589,
+          "connected": 302,
+          "capacity": 50,
+          "second": 540,
+          "approved": 0,
+          "active": 50,
+          "initiated": 621
+        },
+        {
+          "answerEstimate": 0.5496734655823193,
+          "connected": 319,
+          "capacity": 50,
+          "second": 570,
+          "approved": 3,
+          "active": 50,
+          "initiated": 657
+        },
+        {
+          "answerEstimate": 0.7281263493646967,
+          "connected": 338,
+          "capacity": 50,
+          "second": 600,
+          "approved": 0,
+          "active": 50,
+          "initiated": 696
+        },
+        {
+          "answerEstimate": 0.4582971681555653,
+          "connected": 350,
+          "capacity": 50,
+          "second": 630,
+          "approved": 0,
+          "active": 52,
+          "initiated": 722
+        },
+        {
+          "answerEstimate": 0.29220347030585697,
+          "connected": 363,
+          "capacity": 50,
+          "second": 660,
+          "approved": 5,
+          "active": 52,
+          "initiated": 756
+        },
+        {
+          "answerEstimate": 0.48308859467213355,
+          "connected": 385,
+          "capacity": 50,
+          "second": 690,
+          "approved": 1,
+          "active": 50,
+          "initiated": 814
+        },
+        {
+          "answerEstimate": 0.4092222135848466,
+          "connected": 402,
+          "capacity": 50,
+          "second": 720,
+          "approved": 1,
+          "active": 50,
+          "initiated": 848
+        },
+        {
+          "answerEstimate": 0.4323472911806164,
+          "connected": 414,
+          "capacity": 50,
+          "second": 750,
+          "approved": 2,
+          "active": 50,
+          "initiated": 878
+        },
+        {
+          "answerEstimate": 0.5831672700273239,
+          "connected": 431,
+          "capacity": 50,
+          "second": 780,
+          "approved": 1,
+          "active": 50,
+          "initiated": 909
+        },
+        {
+          "answerEstimate": 0.6596034723611056,
+          "connected": 450,
+          "capacity": 50,
+          "second": 810,
+          "approved": 0,
+          "active": 50,
+          "initiated": 944
+        },
+        {
+          "answerEstimate": 0.5359905532777852,
+          "connected": 461,
+          "capacity": 50,
+          "second": 840,
+          "approved": 0,
+          "active": 50,
+          "initiated": 965
+        },
+        {
+          "answerEstimate": 0.6480555552037037,
+          "connected": 474,
+          "capacity": 50,
+          "second": 870,
+          "approved": 0,
+          "active": 49,
+          "initiated": 996
+        }
+      ],
+      "abandonedConnectedCalls": 1,
+      "safetyApprovals": 520,
+      "agentUtilization": 0.9337111111111112,
+      "safetyRejections": 380,
+      "fallbackEvents": 127,
+      "events": [],
+      "pacingChanges": 596,
+      "callsInitiated": 1042,
+      "abandonmentRate": 0.0020408163265306124,
+      "callsConnected": 489,
+      "callsFailed": 547,
+      "callsAnswered": 490
+    },
+    "progressive": {
+      "averageWaitingSeconds": 0.0,
+      "censoredActiveCalls": 50,
+      "mode": "PROGRESSIVE",
+      "timeline": [
+        {
+          "answerEstimate": 0.5,
+          "connected": 0,
+          "capacity": 50,
+          "second": 0,
+          "approved": 50,
+          "active": 50,
+          "initiated": 50
+        },
+        {
+          "answerEstimate": 0.4144996790933332,
+          "connected": 50,
+          "capacity": 50,
+          "second": 30,
+          "approved": 0,
+          "active": 50,
+          "initiated": 113
+        },
+        {
+          "answerEstimate": 0.4144996790933332,
+          "connected": 50,
+          "capacity": 50,
+          "second": 60,
+          "approved": 0,
+          "active": 50,
+          "initiated": 113
+        },
+        {
+          "answerEstimate": 0.2837282925901807,
+          "connected": 62,
+          "capacity": 50,
+          "second": 90,
+          "approved": 3,
+          "active": 50,
+          "initiated": 146
+        },
+        {
+          "answerEstimate": 0.4179389888179543,
+          "connected": 93,
+          "capacity": 50,
+          "second": 120,
+          "approved": 2,
+          "active": 50,
+          "initiated": 221
+        },
+        {
+          "answerEstimate": 0.545834912246352,
+          "connected": 100,
+          "capacity": 50,
+          "second": 150,
+          "approved": 1,
+          "active": 50,
+          "initiated": 228
+        },
+        {
+          "answerEstimate": 0.6055333231839931,
+          "connected": 112,
+          "capacity": 50,
+          "second": 180,
+          "approved": 3,
+          "active": 50,
+          "initiated": 255
+        },
+        {
+          "answerEstimate": 0.6587679121343218,
+          "connected": 132,
+          "capacity": 50,
+          "second": 210,
+          "approved": 1,
+          "active": 50,
+          "initiated": 290
+        },
+        {
+          "answerEstimate": 0.4292083458774772,
+          "connected": 149,
+          "capacity": 50,
+          "second": 240,
+          "approved": 1,
+          "active": 50,
+          "initiated": 329
+        },
+        {
+          "answerEstimate": 0.5684970645980617,
+          "connected": 157,
+          "capacity": 50,
+          "second": 270,
+          "approved": 1,
+          "active": 50,
+          "initiated": 343
+        },
+        {
+          "answerEstimate": 0.6144197669189787,
+          "connected": 174,
+          "capacity": 50,
+          "second": 300,
+          "approved": 2,
+          "active": 50,
+          "initiated": 379
+        },
+        {
+          "answerEstimate": 0.4676910566364816,
+          "connected": 195,
+          "capacity": 50,
+          "second": 330,
+          "approved": 1,
+          "active": 50,
+          "initiated": 422
+        },
+        {
+          "answerEstimate": 0.41736149419621427,
+          "connected": 207,
+          "capacity": 50,
+          "second": 360,
+          "approved": 1,
+          "active": 50,
+          "initiated": 448
+        },
+        {
+          "answerEstimate": 0.4852748271738153,
+          "connected": 224,
+          "capacity": 50,
+          "second": 390,
+          "approved": 2,
+          "active": 50,
+          "initiated": 479
+        },
+        {
+          "answerEstimate": 0.5039082306115784,
+          "connected": 240,
+          "capacity": 50,
+          "second": 420,
+          "approved": 1,
+          "active": 50,
+          "initiated": 509
+        },
+        {
+          "answerEstimate": 0.477129984912482,
+          "connected": 256,
+          "capacity": 50,
+          "second": 450,
+          "approved": 1,
+          "active": 50,
+          "initiated": 545
+        },
+        {
+          "answerEstimate": 0.6922229295841377,
+          "connected": 271,
+          "capacity": 50,
+          "second": 480,
+          "approved": 1,
+          "active": 50,
+          "initiated": 568
+        },
+        {
+          "answerEstimate": 0.6516781037647454,
+          "connected": 290,
+          "capacity": 50,
+          "second": 510,
+          "approved": 1,
+          "active": 50,
+          "initiated": 603
+        },
+        {
+          "answerEstimate": 0.512297268824187,
+          "connected": 301,
+          "capacity": 50,
+          "second": 540,
+          "approved": 1,
+          "active": 50,
+          "initiated": 621
+        },
+        {
+          "answerEstimate": 0.646674665390964,
+          "connected": 319,
+          "capacity": 50,
+          "second": 570,
+          "approved": 2,
+          "active": 50,
+          "initiated": 654
+        },
+        {
+          "answerEstimate": 0.7337697526801492,
+          "connected": 336,
+          "capacity": 50,
+          "second": 600,
+          "approved": 2,
+          "active": 50,
+          "initiated": 694
+        },
+        {
+          "answerEstimate": 0.3463505813494864,
+          "connected": 348,
+          "capacity": 50,
+          "second": 630,
+          "approved": 2,
+          "active": 50,
+          "initiated": 718
+        },
+        {
+          "answerEstimate": 0.4758045516887556,
+          "connected": 363,
+          "capacity": 50,
+          "second": 660,
+          "approved": 1,
+          "active": 50,
+          "initiated": 748
+        },
+        {
+          "answerEstimate": 0.46608811458505783,
+          "connected": 381,
+          "capacity": 50,
+          "second": 690,
+          "approved": 1,
+          "active": 50,
+          "initiated": 808
+        },
+        {
+          "answerEstimate": 0.4898794440624411,
+          "connected": 402,
+          "capacity": 50,
+          "second": 720,
+          "approved": 0,
+          "active": 50,
+          "initiated": 845
+        },
+        {
+          "answerEstimate": 0.6517710107505732,
+          "connected": 414,
+          "capacity": 50,
+          "second": 750,
+          "approved": 0,
+          "active": 50,
+          "initiated": 873
+        },
+        {
+          "answerEstimate": 0.5555293695685106,
+          "connected": 429,
+          "capacity": 50,
+          "second": 780,
+          "approved": 0,
+          "active": 50,
+          "initiated": 905
+        },
+        {
+          "answerEstimate": 0.5243777681993379,
+          "connected": 448,
+          "capacity": 50,
+          "second": 810,
+          "approved": 1,
+          "active": 50,
+          "initiated": 941
+        },
+        {
+          "answerEstimate": 0.7394366509553962,
+          "connected": 461,
+          "capacity": 50,
+          "second": 840,
+          "approved": 0,
+          "active": 50,
+          "initiated": 960
+        },
+        {
+          "answerEstimate": 0.5859477120043574,
+          "connected": 474,
+          "capacity": 50,
+          "second": 870,
+          "approved": 0,
+          "active": 50,
+          "initiated": 993
+        }
+      ],
+      "abandonedConnectedCalls": 0,
+      "safetyApprovals": 537,
+      "agentUtilization": 0.9311555555555555,
+      "safetyRejections": 363,
+      "fallbackEvents": 0,
+      "events": [],
+      "pacingChanges": 637,
+      "callsInitiated": 1035,
+      "abandonmentRate": 0.0,
+      "callsConnected": 488,
+      "callsFailed": 541,
+      "callsAnswered": 488
+    }
+  },
+  {
+    "id": "d11047ef-050c-41fd-a595-88fa2e55e993",
+    "config": {
+      "scenario": "C",
+      "agents": 50,
+      "durationSeconds": 900,
+      "providerLatencyMs": 500,
+      "failureRate": 0.03,
+      "dropouts": 0,
+      "seed": 42
+    },
+    "predictive": {
+      "averageWaitingSeconds": 0.0,
+      "censoredActiveCalls": 50,
+      "mode": "PREDICTIVE",
+      "timeline": [
+        {
+          "answerEstimate": 0.5,
+          "connected": 0,
+          "capacity": 50,
+          "second": 0,
+          "approved": 50,
+          "active": 50,
+          "initiated": 50
+        },
+        {
+          "answerEstimate": 0.8795340640267767,
+          "connected": 50,
+          "capacity": 50,
+          "second": 30,
+          "approved": 0,
+          "active": 50,
+          "initiated": 66
+        },
+        {
+          "answerEstimate": 0.8795340640267767,
+          "connected": 50,
+          "capacity": 50,
+          "second": 60,
+          "approved": 0,
+          "active": 50,
+          "initiated": 66
+        },
+        {
+          "answerEstimate": 0.8795340640267767,
+          "connected": 50,
+          "capacity": 50,
+          "second": 90,
+          "approved": 0,
+          "active": 50,
+          "initiated": 66
+        },
+        {
+          "answerEstimate": 0.8795340640267767,
+          "connected": 50,
+          "capacity": 50,
+          "second": 120,
+          "approved": 0,
+          "active": 50,
+          "initiated": 66
+        },
+        {
+          "answerEstimate": 0.9371160285098776,
+          "connected": 54,
+          "capacity": 50,
+          "second": 150,
+          "approved": 1,
+          "active": 50,
+          "initiated": 72
+        },
+        {
+          "answerEstimate": 0.757531335401495,
+          "connected": 66,
+          "capacity": 50,
+          "second": 180,
+          "approved": 1,
+          "active": 50,
+          "initiated": 88
+        },
+        {
+          "answerEstimate": 0.8140643280011883,
+          "connected": 82,
+          "capacity": 50,
+          "second": 210,
+          "approved": 1,
+          "active": 50,
+          "initiated": 114
+        },
+        {
+          "answerEstimate": 0.9101274443356995,
+          "connected": 99,
+          "capacity": 50,
+          "second": 240,
+          "approved": 0,
+          "active": 50,
+          "initiated": 133
+        },
+        {
+          "answerEstimate": 0.9236083276853445,
+          "connected": 100,
+          "capacity": 50,
+          "second": 270,
+          "approved": 0,
+          "active": 50,
+          "initiated": 134
+        },
+        {
+          "answerEstimate": 0.8173070167526614,
+          "connected": 101,
+          "capacity": 50,
+          "second": 300,
+          "approved": 0,
+          "active": 50,
+          "initiated": 136
+        },
+        {
+          "answerEstimate": 0.5777242973594803,
+          "connected": 109,
+          "capacity": 50,
+          "second": 330,
+          "approved": 2,
+          "active": 50,
+          "initiated": 153
+        },
+        {
+          "answerEstimate": 0.8225570470092382,
+          "connected": 120,
+          "capacity": 50,
+          "second": 360,
+          "approved": 0,
+          "active": 50,
+          "initiated": 165
+        },
+        {
+          "answerEstimate": 0.7007112044077535,
+          "connected": 130,
+          "capacity": 50,
+          "second": 390,
+          "approved": 0,
+          "active": 50,
+          "initiated": 182
+        },
+        {
+          "answerEstimate": 0.4475917325746267,
+          "connected": 141,
+          "capacity": 50,
+          "second": 420,
+          "approved": 0,
+          "active": 50,
+          "initiated": 203
+        },
+        {
+          "answerEstimate": 0.6194792765390262,
+          "connected": 149,
+          "capacity": 50,
+          "second": 450,
+          "approved": 0,
+          "active": 50,
+          "initiated": 214
+        },
+        {
+          "answerEstimate": 0.6048855502234562,
+          "connected": 153,
+          "capacity": 50,
+          "second": 480,
+          "approved": 0,
+          "active": 50,
+          "initiated": 221
+        },
+        {
+          "answerEstimate": 0.522609797710389,
+          "connected": 159,
+          "capacity": 50,
+          "second": 510,
+          "approved": 1,
+          "active": 50,
+          "initiated": 231
+        },
+        {
+          "answerEstimate": 0.48365735391113573,
+          "connected": 165,
+          "capacity": 50,
+          "second": 540,
+          "approved": 1,
+          "active": 50,
+          "initiated": 240
+        },
+        {
+          "answerEstimate": 0.8352926092482109,
+          "connected": 175,
+          "capacity": 50,
+          "second": 570,
+          "approved": 0,
+          "active": 50,
+          "initiated": 252
+        },
+        {
+          "answerEstimate": 0.6377820384174784,
+          "connected": 188,
+          "capacity": 50,
+          "second": 600,
+          "approved": 1,
+          "active": 50,
+          "initiated": 275
+        },
+        {
+          "answerEstimate": 0.9393852713861408,
+          "connected": 199,
+          "capacity": 50,
+          "second": 630,
+          "approved": 0,
+          "active": 50,
+          "initiated": 284
+        },
+        {
+          "answerEstimate": 0.8948039853982849,
+          "connected": 203,
+          "capacity": 50,
+          "second": 660,
+          "approved": 0,
+          "active": 50,
+          "initiated": 289
+        },
+        {
+          "answerEstimate": 0.8009153952491618,
+          "connected": 209,
+          "capacity": 50,
+          "second": 690,
+          "approved": 1,
+          "active": 50,
+          "initiated": 300
+        },
+        {
+          "answerEstimate": 0.8649284897975655,
+          "connected": 216,
+          "capacity": 50,
+          "second": 720,
+          "approved": 1,
+          "active": 50,
+          "initiated": 308
+        },
+        {
+          "answerEstimate": 0.8640561586911142,
+          "connected": 223,
+          "capacity": 50,
+          "second": 750,
+          "approved": 0,
+          "active": 50,
+          "initiated": 315
+        },
+        {
+          "answerEstimate": 0.9806631091403832,
+          "connected": 235,
+          "capacity": 50,
+          "second": 780,
+          "approved": 1,
+          "active": 50,
+          "initiated": 329
+        },
+        {
+          "answerEstimate": 0.8228994213572762,
+          "connected": 244,
+          "capacity": 50,
+          "second": 810,
+          "approved": 0,
+          "active": 50,
+          "initiated": 339
+        },
+        {
+          "answerEstimate": 0.7845510652907912,
+          "connected": 249,
+          "capacity": 50,
+          "second": 840,
+          "approved": 0,
+          "active": 50,
+          "initiated": 348
+        },
+        {
+          "answerEstimate": 0.5417104614610445,
+          "connected": 258,
+          "capacity": 50,
+          "second": 870,
+          "approved": 1,
+          "active": 50,
+          "initiated": 366
+        }
+      ],
+      "abandonedConnectedCalls": 0,
+      "safetyApprovals": 256,
+      "agentUtilization": 0.9748,
+      "safetyRejections": 644,
+      "fallbackEvents": 1,
+      "events": [],
+      "pacingChanges": 364,
+      "callsInitiated": 378,
+      "abandonmentRate": 0.0,
+      "callsConnected": 270,
+      "callsFailed": 107,
+      "callsAnswered": 270
+    },
+    "progressive": {
+      "averageWaitingSeconds": 0.0,
+      "censoredActiveCalls": 50,
+      "mode": "PROGRESSIVE",
+      "timeline": [
+        {
+          "answerEstimate": 0.5,
+          "connected": 0,
+          "capacity": 50,
+          "second": 0,
+          "approved": 50,
+          "active": 50,
+          "initiated": 50
+        },
+        {
+          "answerEstimate": 0.8795340640267767,
+          "connected": 50,
+          "capacity": 50,
+          "second": 30,
+          "approved": 0,
+          "active": 50,
+          "initiated": 66
+        },
+        {
+          "answerEstimate": 0.8795340640267767,
+          "connected": 50,
+          "capacity": 50,
+          "second": 60,
+          "approved": 0,
+          "active": 50,
+          "initiated": 66
+        },
+        {
+          "answerEstimate": 0.8795340640267767,
+          "connected": 50,
+          "capacity": 50,
+          "second": 90,
+          "approved": 0,
+          "active": 50,
+          "initiated": 66
+        },
+        {
+          "answerEstimate": 0.8795340640267767,
+          "connected": 50,
+          "capacity": 50,
+          "second": 120,
+          "approved": 0,
+          "active": 50,
+          "initiated": 66
+        },
+        {
+          "answerEstimate": 0.9371160285098776,
+          "connected": 54,
+          "capacity": 50,
+          "second": 150,
+          "approved": 1,
+          "active": 50,
+          "initiated": 72
+        },
+        {
+          "answerEstimate": 0.757531335401495,
+          "connected": 66,
+          "capacity": 50,
+          "second": 180,
+          "approved": 1,
+          "active": 50,
+          "initiated": 88
+        },
+        {
+          "answerEstimate": 0.8140643280011883,
+          "connected": 82,
+          "capacity": 50,
+          "second": 210,
+          "approved": 1,
+          "active": 50,
+          "initiated": 114
+        },
+        {
+          "answerEstimate": 0.9101274443356995,
+          "connected": 99,
+          "capacity": 50,
+          "second": 240,
+          "approved": 0,
+          "active": 50,
+          "initiated": 133
+        },
+        {
+          "answerEstimate": 0.9236083276853445,
+          "connected": 100,
+          "capacity": 50,
+          "second": 270,
+          "approved": 0,
+          "active": 50,
+          "initiated": 134
+        },
+        {
+          "answerEstimate": 0.8173070167526614,
+          "connected": 101,
+          "capacity": 50,
+          "second": 300,
+          "approved": 0,
+          "active": 50,
+          "initiated": 136
+        },
+        {
+          "answerEstimate": 0.5777242973594803,
+          "connected": 109,
+          "capacity": 50,
+          "second": 330,
+          "approved": 2,
+          "active": 50,
+          "initiated": 153
+        },
+        {
+          "answerEstimate": 0.8225570470092382,
+          "connected": 120,
+          "capacity": 50,
+          "second": 360,
+          "approved": 0,
+          "active": 50,
+          "initiated": 165
+        },
+        {
+          "answerEstimate": 0.7007112044077535,
+          "connected": 130,
+          "capacity": 50,
+          "second": 390,
+          "approved": 0,
+          "active": 50,
+          "initiated": 182
+        },
+        {
+          "answerEstimate": 0.4475917325746267,
+          "connected": 141,
+          "capacity": 50,
+          "second": 420,
+          "approved": 0,
+          "active": 50,
+          "initiated": 203
+        },
+        {
+          "answerEstimate": 0.6194792765390262,
+          "connected": 149,
+          "capacity": 50,
+          "second": 450,
+          "approved": 0,
+          "active": 50,
+          "initiated": 214
+        },
+        {
+          "answerEstimate": 0.6048855502234562,
+          "connected": 153,
+          "capacity": 50,
+          "second": 480,
+          "approved": 0,
+          "active": 50,
+          "initiated": 221
+        },
+        {
+          "answerEstimate": 0.522609797710389,
+          "connected": 159,
+          "capacity": 50,
+          "second": 510,
+          "approved": 1,
+          "active": 50,
+          "initiated": 231
+        },
+        {
+          "answerEstimate": 0.48365735391113573,
+          "connected": 165,
+          "capacity": 50,
+          "second": 540,
+          "approved": 1,
+          "active": 50,
+          "initiated": 240
+        },
+        {
+          "answerEstimate": 0.8352926092482109,
+          "connected": 175,
+          "capacity": 50,
+          "second": 570,
+          "approved": 0,
+          "active": 50,
+          "initiated": 252
+        },
+        {
+          "answerEstimate": 0.6377820384174784,
+          "connected": 188,
+          "capacity": 50,
+          "second": 600,
+          "approved": 1,
+          "active": 50,
+          "initiated": 275
+        },
+        {
+          "answerEstimate": 0.9393852713861408,
+          "connected": 199,
+          "capacity": 50,
+          "second": 630,
+          "approved": 0,
+          "active": 50,
+          "initiated": 284
+        },
+        {
+          "answerEstimate": 0.8948039853982849,
+          "connected": 203,
+          "capacity": 50,
+          "second": 660,
+          "approved": 0,
+          "active": 50,
+          "initiated": 289
+        },
+        {
+          "answerEstimate": 0.8009153952491618,
+          "connected": 209,
+          "capacity": 50,
+          "second": 690,
+          "approved": 1,
+          "active": 50,
+          "initiated": 300
+        },
+        {
+          "answerEstimate": 0.8649284897975655,
+          "connected": 216,
+          "capacity": 50,
+          "second": 720,
+          "approved": 1,
+          "active": 50,
+          "initiated": 308
+        },
+        {
+          "answerEstimate": 0.8640561586911142,
+          "connected": 223,
+          "capacity": 50,
+          "second": 750,
+          "approved": 0,
+          "active": 50,
+          "initiated": 315
+        },
+        {
+          "answerEstimate": 0.9806631091403832,
+          "connected": 235,
+          "capacity": 50,
+          "second": 780,
+          "approved": 1,
+          "active": 50,
+          "initiated": 329
+        },
+        {
+          "answerEstimate": 0.8228994213572762,
+          "connected": 244,
+          "capacity": 50,
+          "second": 810,
+          "approved": 0,
+          "active": 50,
+          "initiated": 339
+        },
+        {
+          "answerEstimate": 0.7845510652907912,
+          "connected": 249,
+          "capacity": 50,
+          "second": 840,
+          "approved": 0,
+          "active": 50,
+          "initiated": 348
+        },
+        {
+          "answerEstimate": 0.5417104614610445,
+          "connected": 258,
+          "capacity": 50,
+          "second": 870,
+          "approved": 1,
+          "active": 50,
+          "initiated": 366
+        }
+      ],
+      "abandonedConnectedCalls": 0,
+      "safetyApprovals": 256,
+      "agentUtilization": 0.9748,
+      "safetyRejections": 644,
+      "fallbackEvents": 0,
+      "events": [],
+      "pacingChanges": 364,
+      "callsInitiated": 378,
+      "abandonmentRate": 0.0,
+      "callsConnected": 270,
+      "callsFailed": 107,
+      "callsAnswered": 270
+    }
+  },
+  {
+    "id": "124052df-2eb4-4894-bade-608a4bd82081",
+    "config": {
+      "scenario": "D",
+      "agents": 50,
+      "durationSeconds": 900,
+      "providerLatencyMs": 500,
+      "failureRate": 0.03,
+      "dropouts": 20,
+      "seed": 42
+    },
+    "predictive": {
+      "averageWaitingSeconds": 0.0,
+      "censoredActiveCalls": 30,
+      "mode": "PREDICTIVE",
+      "timeline": [
+        {
+          "answerEstimate": 0.5,
+          "connected": 0,
+          "capacity": 50,
+          "second": 0,
+          "approved": 50,
+          "active": 50,
+          "initiated": 50
+        },
+        {
+          "answerEstimate": 0.21399158753429376,
+          "connected": 48,
+          "capacity": 50,
+          "second": 30,
+          "approved": 2,
+          "active": 50,
+          "initiated": 342
+        },
+        {
+          "answerEstimate": 0.3390818235863836,
+          "connected": 50,
+          "capacity": 50,
+          "second": 60,
+          "approved": 0,
+          "active": 50,
+          "initiated": 346
+        },
+        {
+          "answerEstimate": 0.3390818235863836,
+          "connected": 50,
+          "capacity": 50,
+          "second": 90,
+          "approved": 1,
+          "active": 50,
+          "initiated": 347
+        },
+        {
+          "answerEstimate": 0.2796872854386803,
+          "connected": 56,
+          "capacity": 50,
+          "second": 120,
+          "approved": 3,
+          "active": 51,
+          "initiated": 382
+        },
+        {
+          "answerEstimate": 0.054975329586069044,
+          "connected": 77,
+          "capacity": 50,
+          "second": 150,
+          "approved": 12,
+          "active": 59,
+          "initiated": 535
+        },
+        {
+          "answerEstimate": 0.13200135957139145,
+          "connected": 96,
+          "capacity": 50,
+          "second": 180,
+          "approved": 3,
+          "active": 51,
+          "initiated": 596
+        },
+        {
+          "answerEstimate": 0.1376547977422995,
+          "connected": 100,
+          "capacity": 50,
+          "second": 210,
+          "approved": 0,
+          "active": 50,
+          "initiated": 616
+        },
+        {
+          "answerEstimate": 0.38265618880328334,
+          "connected": 107,
+          "capacity": 50,
+          "second": 240,
+          "approved": 2,
+          "active": 50,
+          "initiated": 654
+        },
+        {
+          "answerEstimate": 0.3950842687389043,
+          "connected": 120,
+          "capacity": 50,
+          "second": 270,
+          "approved": 1,
+          "active": 50,
+          "initiated": 734
+        },
+        {
+          "answerEstimate": 0.22554649804865196,
+          "connected": 140,
+          "capacity": 50,
+          "second": 300,
+          "approved": 0,
+          "active": 46,
+          "initiated": 842
+        },
+        {
+          "answerEstimate": 0.19432447375006576,
+          "connected": 146,
+          "capacity": 50,
+          "second": 330,
+          "approved": 1,
+          "active": 51,
+          "initiated": 880
+        },
+        {
+          "answerEstimate": 0.21363313290714314,
+          "connected": 156,
+          "capacity": 50,
+          "second": 360,
+          "approved": 0,
+          "active": 52,
+          "initiated": 920
+        },
+        {
+          "answerEstimate": 0.23458804856776183,
+          "connected": 166,
+          "capacity": 50,
+          "second": 390,
+          "approved": 0,
+          "active": 55,
+          "initiated": 968
+        },
+        {
+          "answerEstimate": 0.12395427011709956,
+          "connected": 182,
+          "capacity": 50,
+          "second": 420,
+          "approved": 0,
+          "active": 54,
+          "initiated": 1078
+        },
+        {
+          "answerEstimate": 0.09066282447326185,
+          "connected": 192,
+          "capacity": 30,
+          "second": 450,
+          "approved": 0,
+          "active": 51,
+          "initiated": 1117
+        },
+        {
+          "answerEstimate": 0.3388806981422434,
+          "connected": 194,
+          "capacity": 30,
+          "second": 480,
+          "approved": 2,
+          "active": 42,
+          "initiated": 1125
+        },
+        {
+          "answerEstimate": 0.31979020186427515,
+          "connected": 202,
+          "capacity": 30,
+          "second": 510,
+          "approved": 2,
+          "active": 39,
+          "initiated": 1141
+        },
+        {
+          "answerEstimate": 0.7588972243690937,
+          "connected": 215,
+          "capacity": 30,
+          "second": 540,
+          "approved": 0,
+          "active": 37,
+          "initiated": 1156
+        },
+        {
+          "answerEstimate": 0.7256502606257776,
+          "connected": 221,
+          "capacity": 30,
+          "second": 570,
+          "approved": 0,
+          "active": 30,
+          "initiated": 1163
+        },
+        {
+          "answerEstimate": 0.5242823133021243,
+          "connected": 221,
+          "capacity": 30,
+          "second": 600,
+          "approved": 1,
+          "active": 30,
+          "initiated": 1166
+        },
+        {
+          "answerEstimate": 0.599474875656667,
+          "connected": 223,
+          "capacity": 30,
+          "second": 630,
+          "approved": 0,
+          "active": 30,
+          "initiated": 1169
+        },
+        {
+          "answerEstimate": 0.5955205402312328,
+          "connected": 229,
+          "capacity": 30,
+          "second": 660,
+          "approved": 1,
+          "active": 30,
+          "initiated": 1180
+        },
+        {
+          "answerEstimate": 0.5430303149034679,
+          "connected": 232,
+          "capacity": 30,
+          "second": 690,
+          "approved": 0,
+          "active": 30,
+          "initiated": 1186
+        },
+        {
+          "answerEstimate": 0.837200911482148,
+          "connected": 244,
+          "capacity": 30,
+          "second": 720,
+          "approved": 0,
+          "active": 30,
+          "initiated": 1201
+        },
+        {
+          "answerEstimate": 0.6705767432767021,
+          "connected": 248,
+          "capacity": 30,
+          "second": 750,
+          "approved": 0,
+          "active": 30,
+          "initiated": 1209
+        },
+        {
+          "answerEstimate": 0.6344916970174173,
+          "connected": 249,
+          "capacity": 30,
+          "second": 780,
+          "approved": 0,
+          "active": 30,
+          "initiated": 1213
+        },
+        {
+          "answerEstimate": 0.7480810035239716,
+          "connected": 255,
+          "capacity": 30,
+          "second": 810,
+          "approved": 0,
+          "active": 30,
+          "initiated": 1220
+        },
+        {
+          "answerEstimate": 0.6660088072519803,
+          "connected": 259,
+          "capacity": 30,
+          "second": 840,
+          "approved": 0,
+          "active": 30,
+          "initiated": 1227
+        },
+        {
+          "answerEstimate": 0.6865126587536223,
+          "connected": 261,
+          "capacity": 30,
+          "second": 870,
+          "approved": 1,
+          "active": 30,
+          "initiated": 1232
+        }
+      ],
+      "abandonedConnectedCalls": 1,
+      "safetyApprovals": 335,
+      "agentUtilization": 0.9271944444444444,
+      "safetyRejections": 565,
+      "fallbackEvents": 98,
+      "events": [
+        "t=300: provider outage; safety rejects new calls for 15 virtual seconds; existing calls retained",
+        "t=450: 20 agents disappeared; capacity recomputed before next approval"
+      ],
+      "pacingChanges": 472,
+      "callsInitiated": 1241,
+      "abandonmentRate": 0.003703703703703704,
+      "callsConnected": 269,
+      "callsFailed": 972,
+      "callsAnswered": 270
+    },
+    "progressive": {
+      "averageWaitingSeconds": 0.0,
+      "censoredActiveCalls": 30,
+      "mode": "PROGRESSIVE",
+      "timeline": [
+        {
+          "answerEstimate": 0.5,
+          "connected": 0,
+          "capacity": 50,
+          "second": 0,
+          "approved": 50,
+          "active": 50,
+          "initiated": 50
+        },
+        {
+          "answerEstimate": 0.27706427078635615,
+          "connected": 39,
+          "capacity": 50,
+          "second": 30,
+          "approved": 11,
+          "active": 50,
+          "initiated": 289
+        },
+        {
+          "answerEstimate": 0.15460892199352722,
+          "connected": 48,
+          "capacity": 50,
+          "second": 60,
+          "approved": 2,
+          "active": 50,
+          "initiated": 344
+        },
+        {
+          "answerEstimate": 0.3390818235863836,
+          "connected": 50,
+          "capacity": 50,
+          "second": 90,
+          "approved": 0,
+          "active": 50,
+          "initiated": 346
+        },
+        {
+          "answerEstimate": 0.20997915192186686,
+          "connected": 54,
+          "capacity": 50,
+          "second": 120,
+          "approved": 1,
+          "active": 50,
+          "initiated": 375
+        },
+        {
+          "answerEstimate": 0.10626989616105098,
+          "connected": 67,
+          "capacity": 50,
+          "second": 150,
+          "approved": 7,
+          "active": 50,
+          "initiated": 453
+        },
+        {
+          "answerEstimate": 0.23874692721623486,
+          "connected": 90,
+          "capacity": 50,
+          "second": 180,
+          "approved": 3,
+          "active": 50,
+          "initiated": 569
+        },
+        {
+          "answerEstimate": 0.17982233056501606,
+          "connected": 98,
+          "capacity": 50,
+          "second": 210,
+          "approved": 0,
+          "active": 50,
+          "initiated": 603
+        },
+        {
+          "answerEstimate": 0.15748642096019744,
+          "connected": 102,
+          "capacity": 50,
+          "second": 240,
+          "approved": 2,
+          "active": 50,
+          "initiated": 631
+        },
+        {
+          "answerEstimate": 0.19811317182444943,
+          "connected": 111,
+          "capacity": 50,
+          "second": 270,
+          "approved": 1,
+          "active": 50,
+          "initiated": 692
+        },
+        {
+          "answerEstimate": 0.17650568159481184,
+          "connected": 127,
+          "capacity": 50,
+          "second": 300,
+          "approved": 0,
+          "active": 47,
+          "initiated": 772
+        },
+        {
+          "answerEstimate": 0.33275701308111055,
+          "connected": 138,
+          "capacity": 50,
+          "second": 330,
+          "approved": 6,
+          "active": 50,
+          "initiated": 842
+        },
+        {
+          "answerEstimate": 0.1778503326545488,
+          "connected": 150,
+          "capacity": 50,
+          "second": 360,
+          "approved": 3,
+          "active": 50,
+          "initiated": 894
+        },
+        {
+          "answerEstimate": 0.257430230706705,
+          "connected": 159,
+          "capacity": 50,
+          "second": 390,
+          "approved": 1,
+          "active": 50,
+          "initiated": 938
+        },
+        {
+          "answerEstimate": 0.07985986230112481,
+          "connected": 169,
+          "capacity": 50,
+          "second": 420,
+          "approved": 4,
+          "active": 50,
+          "initiated": 992
+        },
+        {
+          "answerEstimate": 0.23745744445990744,
+          "connected": 181,
+          "capacity": 30,
+          "second": 450,
+          "approved": 0,
+          "active": 47,
+          "initiated": 1071
+        },
+        {
+          "answerEstimate": 0.8155456875538932,
+          "connected": 190,
+          "capacity": 30,
+          "second": 480,
+          "approved": 0,
+          "active": 43,
+          "initiated": 1081
+        },
+        {
+          "answerEstimate": 0.8297772554224649,
+          "connected": 198,
+          "capacity": 30,
+          "second": 510,
+          "approved": 0,
+          "active": 41,
+          "initiated": 1089
+        },
+        {
+          "answerEstimate": 0.8179304881840908,
+          "connected": 204,
+          "capacity": 30,
+          "second": 540,
+          "approved": 0,
+          "active": 33,
+          "initiated": 1097
+        },
+        {
+          "answerEstimate": 0.8850602586935172,
+          "connected": 210,
+          "capacity": 30,
+          "second": 570,
+          "approved": 0,
+          "active": 32,
+          "initiated": 1103
+        },
+        {
+          "answerEstimate": 0.9023012198894896,
+          "connected": 211,
+          "capacity": 30,
+          "second": 600,
+          "approved": 0,
+          "active": 30,
+          "initiated": 1104
+        },
+        {
+          "answerEstimate": 0.8019126313701562,
+          "connected": 212,
+          "capacity": 30,
+          "second": 630,
+          "approved": 0,
+          "active": 30,
+          "initiated": 1106
+        },
+        {
+          "answerEstimate": 0.5273710298248211,
+          "connected": 217,
+          "capacity": 30,
+          "second": 660,
+          "approved": 1,
+          "active": 30,
+          "initiated": 1117
+        },
+        {
+          "answerEstimate": 0.7768537634155271,
+          "connected": 226,
+          "capacity": 30,
+          "second": 690,
+          "approved": 0,
+          "active": 30,
+          "initiated": 1127
+        },
+        {
+          "answerEstimate": 0.5743096381256094,
+          "connected": 233,
+          "capacity": 30,
+          "second": 720,
+          "approved": 1,
+          "active": 30,
+          "initiated": 1145
+        },
+        {
+          "answerEstimate": 0.7027439249562855,
+          "connected": 237,
+          "capacity": 30,
+          "second": 750,
+          "approved": 0,
+          "active": 30,
+          "initiated": 1149
+        },
+        {
+          "answerEstimate": 0.7852324857809163,
+          "connected": 239,
+          "capacity": 30,
+          "second": 780,
+          "approved": 0,
+          "active": 30,
+          "initiated": 1151
+        },
+        {
+          "answerEstimate": 0.7249447391652873,
+          "connected": 243,
+          "capacity": 30,
+          "second": 810,
+          "approved": 0,
+          "active": 30,
+          "initiated": 1157
+        },
+        {
+          "answerEstimate": 0.7258433541060801,
+          "connected": 247,
+          "capacity": 30,
+          "second": 840,
+          "approved": 0,
+          "active": 30,
+          "initiated": 1164
+        },
+        {
+          "answerEstimate": 0.6562046459871067,
+          "connected": 256,
+          "capacity": 30,
+          "second": 870,
+          "approved": 0,
+          "active": 30,
+          "initiated": 1180
+        }
+      ],
+      "abandonedConnectedCalls": 2,
+      "safetyApprovals": 399,
+      "agentUtilization": 0.8973611111111112,
+      "safetyRejections": 501,
+      "fallbackEvents": 0,
+      "events": [
+        "t=300: provider outage; safety rejects new calls for 15 virtual seconds; existing calls retained",
+        "t=450: 20 agents disappeared; capacity recomputed before next approval"
+      ],
+      "pacingChanges": 473,
+      "callsInitiated": 1187,
+      "abandonmentRate": 0.007633587786259542,
+      "callsConnected": 260,
+      "callsFailed": 927,
+      "callsAnswered": 262
+    }
+  }
+]

@@ -1,0 +1,7 @@
+PASS GET /campaigns
+PASS GET /agents
+PASS GET /calls
+PASS GET /providers/health
+PASS GET /dashboard/metrics
+PASS GET /safety/decisions
+PASS frontend HTML and backend proxy

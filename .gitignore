@@ -1,0 +1,11 @@
+backend/target/
+frontend/node_modules/
+frontend/.next/
+frontend/*.tsbuildinfo
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+.idea/
+.vscode/

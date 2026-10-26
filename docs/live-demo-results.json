@@ -1,0 +1,60 @@
+{
+  "campaignId": "06d43fe1-81ab-4c5c-81a0-8e173854a3a9",
+  "elapsedSeconds": 20.48057745800179,
+  "observedStates": [
+    "COMPLETED",
+    "CONNECTED",
+    "FAILED",
+    "INITIATED",
+    "RESERVED",
+    "RINGING"
+  ],
+  "samples": [
+    {
+      "second": 0,
+      "states": {}
+    },
+    {
+      "second": 3,
+      "states": {
+        "RINGING": 5
+      }
+    },
+    {
+      "second": 6,
+      "states": {
+        "CONNECTED": 3,
+        "RINGING": 2
+      }
+    },
+    {
+      "second": 9,
+      "states": {
+        "RINGING": 2,
+        "CONNECTED": 3,
+        "FAILED": 2
+      }
+    },
+    {
+      "second": 12,
+      "states": {
+        "CONNECTED": 5,
+        "FAILED": 2
+      }
+    },
+    {
+      "second": 15,
+      "states": {
+        "CONNECTED": 5,
+        "FAILED": 2
+      }
+    },
+    {
+      "second": 18,
+      "states": {
+        "CONNECTED": 5,
+        "FAILED": 2
+      }
+    }
+  ]
+}

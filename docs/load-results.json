@@ -1,0 +1,11 @@
+{
+  "requests": 100,
+  "workers": 10,
+  "elapsedSeconds": 0.23170987499906914,
+  "requestsPerSecond": 431.57418301831865,
+  "p50Ms": 16.83433300058823,
+  "p95Ms": 62.43562499730615,
+  "approvedByProbe": 50,
+  "campaignId": "3fbc21f1-5138-42fa-8618-555db7960fcb",
+  "note": "Local HTTP + PostgreSQL admission benchmark; scheduler may also approve calls. Not a provider throughput or production scaling benchmark."
+}

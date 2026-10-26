@@ -1,0 +1,5 @@
+FAILURE_SCENARIO_EVIDENCE workerCrashAfterProviderAcceptAvoidsDuplicateCall() calls=[{state=INITIATED, count=1}] events=[] agents=[{state=DIALING, count=1}]
+FAILURE_SCENARIO_EVIDENCE duplicateAnswersAreIdempotent() calls=[{state=CONNECTED, count=1}] events=[{outcome=APPLIED, count=1}, {outcome=IGNORED, count=2}] agents=[{state=CONNECTED, count=1}]
+FAILURE_SCENARIO_EVIDENCE outOfOrderCannotReopenTerminal() calls=[{state=COMPLETED, count=1}] events=[{outcome=APPLIED, count=1}, {outcome=IGNORED, count=2}] agents=[{state=AVAILABLE, count=1}]
+FAILURE_SCENARIO_EVIDENCE agentCollapseImmediatelyRestrictsNewCalls() calls=[{state=RESERVED, count=60}] events=[] agents=[{state=OFFLINE, count=40}, {state=RESERVED, count=60}]
+FAILURE_SCENARIO_EVIDENCE providerOutageProtectsExistingAndStopsNew() calls=[{state=INITIATED, count=1}] events=[] agents=[{state=DIALING, count=1}]

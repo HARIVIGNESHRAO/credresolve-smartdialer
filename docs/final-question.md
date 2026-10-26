@@ -1,0 +1,7 @@
+# Assignment final question
+
+**How would you build a SmartDialer that gets as much of the utilization benefit of predictive dialing as possible, while retaining the deterministic safety characteristics of progressive dialing?**
+
+Separate pacing recommendations from an independent, fail-closed safety boundary. Use recent answer rates and setup/talk times to prepare work and time admissions, but make capacity enforcement authoritative: atomically reserve a live agent and borrower, account for all in-flight and uncertain calls, persist dispatch, and release ownership only after terminal evidence. Stop or fall back to progressive behavior when availability falls, provider health degrades, or the model becomes uncertain.
+
+For a strict deterministic no-overdial contract, reserve one agent before **each** initiation. Predictions can reduce orchestration gaps and improve borrower selection, but cannot create extra guaranteed agent capacity. If we dial unbound speculative calls to improve utilization further, safety becomes statistical: conservative probability margins, a hard exposure cap, and progressive fallback reduce risk but cannot guarantee zero abandoned calls. Correlated answers and agents disappearing can still defeat the estimate. This prototype exposes that operational tradeoff in its audit trail and measured simulations rather than claiming both maximal predictive utilization and deterministic zero abandonment.
